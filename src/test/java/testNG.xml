@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+	
+	<listeners>
+        <listener class-name="com.resolver.qa.ExtentReportListener.ExtentReporterNG"/>
+    </listeners>
+
+	
+
+  <test name="Resolver Test1To6">
+    <classes>
+      <class name="com.resolver.qa.testcase.HomeTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
